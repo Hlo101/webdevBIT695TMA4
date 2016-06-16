@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+            <title>Player Information</title>
+            </head>
+    <body>
+        <h1>Add a Score</h1>
+        <form action="addScore.php" method="get" >
+            Player: <input type="text" name="firstname" id="firstname"/><br><br>
+            Game: <input type="text" name="game" id="game"/><br><br>
+            Score: <input type="text" name="score" id="score"/><br><br>
+            
+            <button class="submit" type="submit" value="submit">Add</button>
+            <button class="resetform" type="reset" value="Reset">Reset</button>
+            <input class="homeButton" type="button" value="Home" onclick="window.location.href='index.html'" />
+        </form>
+    </body>
+</html>

@@ -1,0 +1,200 @@
+body {background-image: url("image.jpg");
+    background-size:cover;
+    background-attachment: fixed;}
+
+h1 {color: white;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;}
+
+h2 {color: white;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-size: 36px;
+    text-align:center;}
+
+p {font-family: Arial, ‘arial’, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: white;}
+
+form {font-family: Arial, ‘arial’, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;}
+
+input.searchButton {
+    width: 200px;
+    padding: 10px;
+    float: center;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #999999;
+    border-radius: 10px;}
+
+input.deleteButton {
+    width: 200px;
+    padding: 10px;
+    float: center;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #999999;
+    border-radius: 10px;}
+
+input.submit {
+    width: 200px;
+    padding: 10px;
+    float: center;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #999999;
+    border-radius: 10px;}
+
+input.gamesButton {
+    width: 200px;
+    padding: 10px;
+    float: center;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #999999;
+    border-radius: 10px;}
+
+input.addGameButton {
+    width: 200px;
+    padding: 10px;
+    float: center;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #999999;
+    border-radius: 10px;}
+
+input.addEvent {
+    width: 200px;
+    padding: 10px;
+    float: center;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #999999;
+    border-radius: 10px;}
+
+input.viewEvents {
+    width: 200px;
+    padding: 10px;
+    float: center;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #999999;
+    border-radius: 10px;}
+
+input.addScore {
+    width: 200px;
+    padding: 10px;
+    float: center;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #999999;
+    border-radius: 10px;}
+
+input.viewScores {
+    width: 200px;
+    padding: 10px;
+    float: center;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #999999;
+    border-radius: 10px;}
+
+button.resetform {
+    width: 300px;
+    padding: 20px;
+    float: center;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #999999;
+    border-radius: 10px;}
+
+button.submit {
+    width: 300px;
+    padding: 20px;
+    float: center;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-weight:bold;
+    font-size: 100%;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #999999;
+    border-radius: 10px;}
+
+input.homeButton {
+    width: 300px;
+    padding: 20px;
+    float: center;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #999999;
+    border-radius: 10px;}
+
+
+table {
+    border-collapse: collapse;
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: #87CEFA;}
+
+table, th, td {
+    border: 3px solid #0000CD;
+    font-family: Arial, ‘arial’, sans-serif;
+    font-size: 18px;
+    color: black;
+    
+}
+th {
+    height: 50px;}
+
+td{
+    height: 40px;}

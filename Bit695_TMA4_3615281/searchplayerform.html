@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+            <title>Player Information</title>
+            </head>
+    <body>
+        <h1>Player Information</h1>
+        <form action="searchplayer.php" method="get" >
+            Member ID: <input type="text" name="memberId" id="memberId"/><br><br>
+            First name: <input type="text" name="firstName" id="firstName"/><br><br>
+            Last name: <input type="text" name="lastName" id="lastName"/><br><br>
+            Email: <input type="text" name="email" id="email"/><br><br>
+            Phone: <input type="text" name="phone" id="phone"/><br><br>
+            
+            <button class="submit" type="submit" value="submit">Search</button>
+            <button class="resetform" type="reset" value="Reset">Reset</button>
+            <input class="homeButton" type="button" value="Home" onclick="window.location.href='index.html'" />
+            
+        </form>
+    </body>
+</html>

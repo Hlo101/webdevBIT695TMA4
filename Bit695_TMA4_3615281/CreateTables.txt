@@ -1,0 +1,12 @@
+
+
+$query = "CREATE TABLE IF NOT EXISTS players(id VARCHAR(50), first_name VARCHAR(50), last_name VARCHAR(50), email VARCHAR(100), phone VARCHAR(20), PRIMARY KEY (id)";
+
+$query = "CREATE TABLE IF NOT EXISTS availableBoardGames(boardGame VARCHAR(50), playerName VARCHAR(50), playerId VARCHAR(50), isAvailable BOOLEAN, PRIMARY KEY (boardGame), FOREIGN KEY (playerId) REFERENCES players(id)";
+
+$query = "CREATE TABLE IF NOT EXISTS boardGameOwner(id VARCHAR(50), boardGame VARCHAR(50), playerName VARCHAR(50), playerId VARCHAR(50), PRIMARY KEY (id), FOREIGN KEY (playerId) REFERENCES players(id))”;
+
+$query = "CREATE TABLE IF NOT EXISTS schedule(date VARCHAR(50), location VARCHAR(50), time VARCHAR(50))”;
+
+$query = "CREATE TABLE IF NOT EXISTS highestScores(playerName VARCHAR(50), playerId VARCHAR(50), boardGame VARCHAR(50), score INT(6), FOREIGN KEY (playerId) REFERENCES players(id))”;
+
